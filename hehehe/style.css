@@ -1,0 +1,56 @@
+body {
+	background-color: rgb(255,255,240);
+	margin-left: 20%;
+}
+
+h1 {
+	margin: 0px;
+}
+
+textarea {
+	scrollbar-3dlight-color: #C0C0C0;
+	scrollbar-shadow-color: silver;
+	scrollbar-arrow-color: black;
+	scrollbar-face-color: gray;
+}
+
+.imgHelp {
+	cursor: help;
+}
+
+.EmailEditor {
+	background-color: #FFFFDD;
+}
+
+#main {
+	width: 400px;
+	background-color: #DDFFEE;
+	border-left: 10px;
+	border-right: 10px; 
+}
+ #help { 
+ 	position: absolute;
+ 	width: 500px;
+ 	height: 420px;
+ 	margin-top: 10px;
+ 	background-color: #cfc;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	visibility: hidden;
+ 	border-color: #E4E7E7;
+ 	border-width: 2px;
+ 	border-style: solid;
+ 	text-decoration-color: #303030;
+ }
+
+ .Close {
+ 	text-align: right;
+ 	text-decoration-color: blue;
+ 	cursor: hand;
+ }
+
+ ol {
+ 	list-style-image: url(bullet.jpg);
+ 	list-style-type: square;
+ 	list-style-position: inside;
+ }
